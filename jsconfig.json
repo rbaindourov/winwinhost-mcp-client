@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "checkJs": false,
+    "skipLibCheck": true
+  },
+  "typeAcquisition": {
+    "enable": false
+  },
+  "include": [
+    "index.js",
+    "index.d.ts",
+    "bin/**/*.js",
+    "src/**/*.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "../../node_modules",
+    "../../dist",
+    "../../public",
+    "../../data",
+    "../../scratch",
+    "../../backups",
+    "../../articleSyncJob"
+  ]
+}
