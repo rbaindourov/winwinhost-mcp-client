@@ -27,7 +27,7 @@ async function main() {
     return;
   }
 
-  console.log('=== @winwinhost/mcp-agent-client — Documentation & Benchmark Directory ===');
+  console.log('=== @winwinhost/mcp-agent-client — Documentation Directory ===');
   console.log(JSON.stringify({ documentationHubs: DOCUMENTATION_HUB_URLS, sampleDomains: BENCHMARK_SAMPLE_DOMAINS }, null, 2));
 }
 

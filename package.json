@@ -1,14 +1,13 @@
 {
   "name": "@winwinhost/mcp-agent-client",
   "version": "1.3.0",
-  "description": "Zero-dependency Node.js SDK, MCP client adapter, and 101-domain SSR benchmark reproduction suite for WinWinHost, ArticleSyndicator, FreeInvoicer, DigitalSpying, and WebDesigner.la.",
+  "description": "Zero-dependency Node.js SDK and MCP client adapter for WinWinHost, ArticleSyndicator, FreeInvoicer, DigitalSpying, and WebDesigner.la.",
   "main": "index.js",
   "types": "index.d.ts",
   "bin": {
     "winwinhost-mcp": "./bin/cli.js"
   },
   "scripts": {
-    "benchmark": "node bin/cli.js --benchmark",
     "discover": "node bin/cli.js --discover"
   },
   "keywords": [
@@ -21,7 +20,6 @@
     "invoicing",
     "ghidra",
     "reverse-engineering",
-    "ssr-benchmark",
     "winwinhost",
     "articlesyndicator",
     "freeinvoicer",

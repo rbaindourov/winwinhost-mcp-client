@@ -2,7 +2,7 @@
 
 /**
  * @winwinhost/mcp-agent-client
- * Zero-dependency SDK & Benchmark Reproducer for the WinWinHost 101-Domain Agentic Network.
+ * Zero-dependency SDK for the WinWinHost 101-Domain Agentic Network.
  *
  * Official Documentation Directory:
  * - Master MCP & A2A Gateway:       https://winwinhost.com/mcp-documentation
