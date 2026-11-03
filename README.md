@@ -1,6 +1,6 @@
-# `@winwinhost/mcp-agent-client` — Multi-Domain MCP, x402 & SSR Benchmark SDK
+# `@winwinhost/mcp-agent-client` — Multi-Domain MCP & x402 SDK
 
-Zero-dependency Node.js 18+ client adapter, Model Context Protocol (MCP) configuration generator, and single-process multi-tenant SSR benchmark reproduction suite for the **WinWinHost 101-Domain Agentic Network**.
+Zero-dependency Node.js 18+ client adapter, and Model Context Protocol (MCP) configuration generator for the **WinWinHost 101-Domain Agentic Network**.
 
 ---
 
@@ -11,7 +11,7 @@ Every production microservice in the WinWinHost & MultiDomainCMS ecosystem publi
 | Service Hub | Primary Capability | Live Documentation URL |
 | :--- | :--- | :--- |
 | **WinWinHost Unified MCP Gateway** | 14+ MCP Tools (`SSE` & JSON-RPC), RBAC Scopes, Prometheus/Loki Telemetry & Affiliate Campaigns | [`https://winwinhost.com/mcp-documentation`](https://winwinhost.com/mcp-documentation) |
-| **101-Domain Single-Process SSR Benchmark** | Live Prometheus RAM (`2.3 GB` vs. `40.4 GB` cPanel), TTFB (`14 ms`), and Reproduction Script | [`https://winwinhost.com/benchmark`](https://winwinhost.com/benchmark) |
+| **101-Domain Single-Process SSR Benchmark** | Live Prometheus RAM (`2.3 GB` vs. `40.4 GB` cPanel), TTFB (`14 ms`) | [`https://winwinhost.com/benchmark`](https://winwinhost.com/benchmark) |
 | **ArticleSyndicator Pay-Per-Post & x402** | 93-Domain Permanent Article Syndication (`$1.00 USDC` on Base L2 Chain ID `8453` or PayPal/Card) | [`https://articlesyndicator.net/mcp-pay-per-post-syndication-api`](https://articlesyndicator.net/mcp-pay-per-post-syndication-api) |
 | **FreeInvoicer Zero-Auth Agent Invoicing** | Instant US-Letter HTML & Vector PDF Invoice Generation + Email Dispatch (`$0`, No API Key Required) | [`https://freeinvoicer.com/mcp-agent-invoicing`](https://freeinvoicer.com/mcp-agent-invoicing) |
 | **WebDesigner.la Design Audit & Preview API** | Topological PageRank (`UR 1-100`), WCAG 2.1 AA / CWV Audit (`$0.05 USDC`) & White-Label `/preview` | [`https://webdesigner.la/mcp-design-audit-and-lead-api`](https://webdesigner.la/mcp-design-audit-and-lead-api) |
@@ -54,13 +54,7 @@ const receipt = await client.createFreeInvoice({
 console.log(receipt.shareableInvoiceUrl, receipt.pdfDownloadUrl);
 ```
 
-### 3. Reproduce the 101-Domain Multi-Tenant SSR Benchmark
-
-```bash
-curl -sS https://winwinhost.com/api/benchmark/reproduce.js | node
-```
-
-### 4. Cryptographic `GitHubSyncProof` & Dual-Origin CMS Upsert
+### 3. Cryptographic `GitHubSyncProof` & Dual-Origin CMS Upsert
 
 Workstation and third-party agents that commit and push `data/posts/<domain>/` shards to GitHub before calling the live CMS API can generate a signed `GitHubSyncProof` (using either a per-agent `ag_prf_*` proof secret or `CMS_SYNC_PROOF_SECRET`) so the production server verifies the proof and skips duplicate server-side Git commits:
 
