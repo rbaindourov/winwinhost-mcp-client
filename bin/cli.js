@@ -4,7 +4,7 @@
 const {
   WinWinHostMcpClient,
   DOCUMENTATION_HUB_URLS,
-  BENCHMARK_SAMPLE_DOMAINS
+  NETWORK_SAMPLE_DOMAINS
 } = require('../index');
 
 async function main() {
@@ -28,7 +28,7 @@ async function main() {
   }
 
   console.log('=== @winwinhost/mcp-agent-client — Documentation Directory ===');
-  console.log(JSON.stringify({ documentationHubs: DOCUMENTATION_HUB_URLS, sampleDomains: BENCHMARK_SAMPLE_DOMAINS }, null, 2));
+  console.log(JSON.stringify({ documentationHubs: DOCUMENTATION_HUB_URLS, sampleDomains: NETWORK_SAMPLE_DOMAINS }, null, 2));
 }
 
 if (require.main === module) {

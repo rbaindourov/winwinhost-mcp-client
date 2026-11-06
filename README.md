@@ -11,7 +11,6 @@ Every production microservice in the WinWinHost & MultiDomainCMS ecosystem publi
 | Service Hub | Primary Capability | Live Documentation URL |
 | :--- | :--- | :--- |
 | **WinWinHost Unified MCP Gateway** | 14+ MCP Tools (`SSE` & JSON-RPC), RBAC Scopes, Prometheus/Loki Telemetry & Affiliate Campaigns | [`https://winwinhost.com/mcp-documentation`](https://winwinhost.com/mcp-documentation) |
-| **101-Domain Single-Process SSR Benchmark** | Live Prometheus RAM (`2.3 GB` vs. `40.4 GB` cPanel), TTFB (`14 ms`) | [`https://winwinhost.com/benchmark`](https://winwinhost.com/benchmark) |
 | **ArticleSyndicator Pay-Per-Post & x402** | 93-Domain Permanent Article Syndication (`$1.00 USDC` on Base L2 Chain ID `8453` or PayPal/Card) | [`https://articlesyndicator.net/mcp-pay-per-post-syndication-api`](https://articlesyndicator.net/mcp-pay-per-post-syndication-api) |
 | **FreeInvoicer Zero-Auth Agent Invoicing** | Instant US-Letter HTML & Vector PDF Invoice Generation + Email Dispatch (`$0`, No API Key Required) | [`https://freeinvoicer.com/mcp-agent-invoicing`](https://freeinvoicer.com/mcp-agent-invoicing) |
 | **WebDesigner.la Design Audit & Preview API** | Topological PageRank (`UR 1-100`), WCAG 2.1 AA / CWV Audit (`$0.05 USDC`) & White-Label `/preview` | [`https://webdesigner.la/mcp-design-audit-and-lead-api`](https://webdesigner.la/mcp-design-audit-and-lead-api) |

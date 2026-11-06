@@ -129,7 +129,6 @@ export interface BinaryForensicsTriageInput {
 
 export declare const DOCUMENTATION_HUB_URLS: Readonly<{
   masterGateway: string;
-  benchmarkDashboard: string;
   articleSyndicatorPayPerPost: string;
   freeInvoicerZeroAuthMcp: string;
   webdesignerLaDesignAudit: string;
@@ -140,7 +139,7 @@ export declare const DOCUMENTATION_HUB_URLS: Readonly<{
   affiliatePartnersAttribution: string;
 }>;
 
-export declare const BENCHMARK_SAMPLE_DOMAINS: ReadonlyArray<string>;
+export declare const NETWORK_SAMPLE_DOMAINS: ReadonlyArray<string>;
 export declare const DEFAULT_SYNC_PROOF_SECRET: string;
 export declare const PROOF_TIMESTAMP_TOLERANCE_MS: number;
 

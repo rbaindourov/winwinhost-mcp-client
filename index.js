@@ -6,7 +6,6 @@
  *
  * Official Documentation Directory:
  * - Master MCP & A2A Gateway:       https://winwinhost.com/mcp-documentation
- * - 101-Domain SSR Benchmark:       https://winwinhost.com/benchmark
  * - Pay-Per-Post & x402 Publishing: https://articlesyndicator.net/mcp-pay-per-post-syndication-api
  * - Zero-Auth Agent Invoicing:      https://freeinvoicer.com/mcp-agent-invoicing
  * - Design Audit & Preview Sandbox: https://webdesigner.la/mcp-design-audit-and-lead-api
@@ -19,7 +18,6 @@
 
 const DOCUMENTATION_HUB_URLS = Object.freeze({
   masterGateway: 'https://winwinhost.com/mcp-documentation',
-  benchmarkDashboard: 'https://winwinhost.com/benchmark',
   articleSyndicatorPayPerPost: 'https://articlesyndicator.net/mcp-pay-per-post-syndication-api',
   freeInvoicerZeroAuthMcp: 'https://freeinvoicer.com/mcp-agent-invoicing',
   webdesignerLaDesignAudit: 'https://webdesigner.la/mcp-design-audit-and-lead-api',
@@ -30,7 +28,7 @@ const DOCUMENTATION_HUB_URLS = Object.freeze({
   affiliatePartnersAttribution: 'https://affiliatepartners.biz/api-docs'
 });
 
-const BENCHMARK_SAMPLE_DOMAINS = Object.freeze([
+const NETWORK_SAMPLE_DOMAINS = Object.freeze([
   'winwinhost.com',
   'webdesigner.la',
   'articlesyndicator.net',
@@ -875,7 +873,7 @@ class WinWinHostMcpClient {
 module.exports = {
   WinWinHostMcpClient,
   DOCUMENTATION_HUB_URLS,
-  BENCHMARK_SAMPLE_DOMAINS,
+  NETWORK_SAMPLE_DOMAINS,
   DEFAULT_SYNC_PROOF_SECRET,
   PROOF_TIMESTAMP_TOLERANCE_MS,
   computeContentSha256,

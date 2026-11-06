@@ -135,7 +135,6 @@ export interface BinaryForensicsTriageInput {
 
 export const DOCUMENTATION_HUB_URLS = Object.freeze({
   masterGateway: 'https://winwinhost.com/mcp-documentation',
-  benchmarkDashboard: 'https://winwinhost.com/benchmark',
   articleSyndicatorPayPerPost: 'https://articlesyndicator.net/mcp-pay-per-post-syndication-api',
   freeInvoicerZeroAuthMcp: 'https://freeinvoicer.com/mcp-agent-invoicing',
   webdesignerLaDesignAudit: 'https://webdesigner.la/mcp-design-audit-and-lead-api',
@@ -146,7 +145,7 @@ export const DOCUMENTATION_HUB_URLS = Object.freeze({
   affiliatePartnersAttribution: 'https://affiliatepartners.biz/api-docs'
 });
 
-export const BENCHMARK_SAMPLE_DOMAINS: ReadonlyArray<string> = Object.freeze([
+export const NETWORK_SAMPLE_DOMAINS: ReadonlyArray<string> = Object.freeze([
   'winwinhost.com',
   'webdesigner.la',
   'articlesyndicator.net',
