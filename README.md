@@ -4,13 +4,14 @@ Zero-dependency Node.js 18+ client adapter, and Model Context Protocol (MCP) con
 
 ---
 
-## 🌐 Live API & MCP Documentation Directory
+## 🌐 Live API, Interactive Studio & MCP Documentation Directory
 
 Every production microservice in the WinWinHost & MultiDomainCMS ecosystem publishes machine-readable discovery manifests (`/.well-known/mcp/server.json`, `/.well-known/agent-card.json`, `/.well-known/x402.json`, `/llms.txt`) and comprehensive human/agent reference guides:
 
 | Service Hub | Primary Capability | Live Documentation URL |
 | :--- | :--- | :--- |
 | **WinWinHost Unified MCP Gateway** | 14+ MCP Tools (`SSE` & JSON-RPC), RBAC Scopes, Prometheus/Loki Telemetry & Affiliate Campaigns | [`https://winwinhost.com/mcp-documentation`](https://winwinhost.com/mcp-documentation) |
+| **WinWinHost Ahrefs-Parity SEO Studio** | Topological PageRank (`DR 1-100` / `UR 1-100`), Link Intersect, Contextual Backlink Finder & GSC Radar | [`https://winwinhost.com/seo-studio`](https://winwinhost.com/seo-studio) |
 | **ArticleSyndicator Pay-Per-Post & x402** | 93-Domain Permanent Article Syndication (`$1.00 USDC` on Base L2 Chain ID `8453` or PayPal/Card) | [`https://articlesyndicator.net/mcp-pay-per-post-syndication-api`](https://articlesyndicator.net/mcp-pay-per-post-syndication-api) |
 | **FreeInvoicer Zero-Auth Agent Invoicing** | Instant US-Letter HTML & Vector PDF Invoice Generation + Email Dispatch (`$0`, No API Key Required) | [`https://freeinvoicer.com/mcp-agent-invoicing`](https://freeinvoicer.com/mcp-agent-invoicing) |
 | **WebDesigner.la Design Audit & Preview API** | Topological PageRank (`UR 1-100`), WCAG 2.1 AA / CWV Audit (`$0.05 USDC`) & White-Label `/preview` | [`https://webdesigner.la/mcp-design-audit-and-lead-api`](https://webdesigner.la/mcp-design-audit-and-lead-api) |
@@ -19,6 +20,20 @@ Every production microservice in the WinWinHost & MultiDomainCMS ecosystem publi
 | **LeadSuperstore Ping-Tree Lead Exchange** | Exclusive Geo-Targeted SMB, Legal, Financial & Home-Service Lead Batches (`$0.25 USDC` / `50/50` Rev-Share) | [`https://leadsuperstore.net/mcp-lead-exchange-ping-tree-api`](https://leadsuperstore.net/mcp-lead-exchange-ping-tree-api) |
 | **ContactCampaigns CAN-SPAM Outreach API** | Svix HMAC Resend Webhooks, MX/SMTP Pre-Flight Scrubbing & Autonomous Multi-Touch Sequences | [`https://contactcampaigns.com/mcp-outreach-campaign-automation-api`](https://contactcampaigns.com/mcp-outreach-campaign-automation-api) |
 | **AffiliatePartners Attribution & Ping-Tree** | Multi-Vertical Click/Impression/Lead Tracking & 27-Domain Financial Ping-Tree Waterfall | [`https://affiliatepartners.biz/api-docs`](https://affiliatepartners.biz/api-docs) |
+
+---
+
+## 🏦 Specialized Vertical Research, Calculator & E-Commerce Hubs
+
+| Vertical Silo | Flagship Platform | Primary Interactive Tools & Reference Guides |
+| :--- | :--- | :--- |
+| **Consumer Lending & TILA APR Math** | [`https://247advance.net`](https://247advance.net/) | [Interactive TILA APR Calculator](https://247advance.net/apr-calculator) · [Liquidity Comparison](https://247advance.net/) |
+| **Short-Term Credit & DTI Underwriting** | [`https://cash-advance-america.com`](https://cash-advance-america.com/) | [Payday vs. Installment Math](https://cash-advance-america.com/payday-loans-vs-personal-installment-loans-comparison) · [DTI Ratio Guide](https://cash-advance-america.com/calculating-debt-to-income-dti-ratios-for-loan-approval) |
+| **Debt Consolidation & Settlement** | [`https://fast-debt-reduction.com`](https://fast-debt-reduction.com/) | [Consolidation vs. Settlement Cost Economics](https://fast-debt-reduction.com/debt-consolidation-vs-settlement-cost-economics) |
+| **Mortgage Modification & Equity Math** | [`https://homeloanremortgage.org`](https://homeloanremortgage.org/) | [Fannie Mae Flex Modification vs. Cash-Out Refi Math](https://homeloanremortgage.org/hardship-loan-modification-vs-cash-out-refinance-math) |
+| **Nevada Mortgage Refi & LLPA Matrices** | [`https://refiinvegas.com`](https://refiinvegas.com/) | [FICO Tiers & Rapid Rescoring](https://refiinvegas.com/credit-score-optimization-for-mortgage-refinancing-fpa) · [DSCR Rental Refi](https://refiinvegas.com/dscr-investment-property-refinance-las-vegas-str-regulations) · [Best Vegas Refi](https://bestvegasrefi.com/) |
+| **Legal Defense & Damages Modeling** | [`https://expertlawforum.com`](https://expertlawforum.com/) | [Interactive Legal Calculators](https://expertlawforum.com/calculators) · [DUI Defense Hub](https://duiattorneysonline.net/) |
+| **Clinical Cosmetics & Beauty Catalog** | [`https://astoreforbeauty.com`](https://astoreforbeauty.com/) | [Full E-Commerce Product Catalog](https://astoreforbeauty.com/catalog) · [Acai & Polyphenol Research](https://buyacaiberries.biz/) |
 
 ---
 
@@ -104,4 +119,3 @@ const check = verifyGitHubSyncProof(headerValue, {
 });
 console.log(check.valid, check.keyScope);
 ```
-
